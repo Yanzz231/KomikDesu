@@ -1,0 +1,11 @@
+        for (let i = 0; i < localStorage.length; i++) {
+            if (localStorage.key(i).startsWith('bookmark')) {
+                const item = localStorage.getItem(localStorage.key(i))
+                if (item) {
+                    const parsedItem = JSON.parse(item);
+                    if (Array.isArray(parsedItem)) {
+                        console.log([...parsedItem])
+                    }
+                }
+            }
+        }
