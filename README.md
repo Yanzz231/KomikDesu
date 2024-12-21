@@ -35,6 +35,8 @@ this website have a fiture like
 - Unlimited Scroll Like [Komiku](https://komiku.id/)
 - Chapter Page ❌
 
+## Api
+```https://api.jikan.moe/v4```
 
 ## License
 
